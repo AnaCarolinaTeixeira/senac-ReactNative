@@ -1,0 +1,20 @@
+Inicializar um repositório loval
+> git init
+
+Cria uma branch local
+> git branc -M main
+
+Conecta um repositório local a um remoto
+> git remote add origin https://github.com/AnaCarolinaTeixeira/senac-ReactNative.git
+
+Adiciona arquivos ao commit
+> git add <arquivos>
+
+Efetua o commit no repositório local
+>git comimit -m "Primeiro commit"
+
+Transfere os arquivos comitados localmente para o remoto
+> git push -u origin main
+
+//verifica qual repositorio remoto está conectado 
+> git remote -v
